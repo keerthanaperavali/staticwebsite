@@ -1,0 +1,218 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    width: 1740px;
+    top: 102px;
+    left: -7px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+
+.logo img {
+    height: 80px;
+    width: auto;
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.header-link {
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.register-button {
+    background-color: #ff7f00; 
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.register-button:hover {
+    background-color: #ff7e00;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    background-color:#10027E;
+    width:1740px ;
+    height: 631px;
+}
+.sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-top: 140px;
+    
+}
+.sub h1{
+    font-family: Fira Code;
+    font-size: 64px;
+    text-align: left;
+
+}
+.sub h4{
+    font-family: dubai;
+    font-size: 32px;
+    padding-top: 10px;
+}
+.img{
+    margin-top: 30px;
+}
+.sub button{
+    background-color: #ff7e00;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    width: 50%;
+    margin-bottom: 50px;
+}
+.main-futures{
+    display: flex;
+    gap: 150px;
+    padding: 50px;
+}
+.futures-box{
+    display: flex;
+    justify-content: center;
+    gap: 59px;
+    padding: 20px 20px;
+    background: linear-gradient(135deg, #2D388A, #7892E0);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+    transition: transform 0.3s;
+    width: 90%;
+}
+.futures-box h3{
+    font-size: 22px;
+    font-weight: bold;
+}
+.futures-box p{
+    font-size: 22px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+.student-stores{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: auto auto; 
+    gap: 90px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.head h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+.student-box{
+    display: flex;
+    width: 600px;
+    padding: 20px;
+    background-color: #e6f0f8;
+    border-radius: 12px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    border-color: black;
+    text-align: left;
+}
+.student img {
+    width: 160px;
+    height: 220px;
+    border-radius: 10px;
+    border-color: black;
+    border-radius: 10px;
+    border: 3px solid black;
+
+}
+.student{
+    display: flex;
+    gap: 50%;
+}
+.student p{
+    margin-left: 20px;
+    font-size: 18px;
+}
+.Companies h1{
+    font-family: Fira Code;
+    font-size: 64px;
+    text-align: center;
+    margin-top: 50px;
+}
+.gif-container{
+    margin-left: 240px;
+}
+.Syllabus h1{
+    text-align: center;
+    font-size: 70px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.subtext{
+    color: #007bff;
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.modules{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-rows: repeat(2, auto);   /* 2 rows */
+    gap: 50px;
+}
+.module-box{
+    margin-left: 88px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.2s;
+}
+.module-box button{
+
+    color: black;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+
+
+}
